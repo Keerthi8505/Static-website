@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+   background-size: cover;
+   background-image: url(1-jpg.jpg);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 800px;
+}
+.main{
+    position: relative;
+    top: 80px;
+    left: 40px;
+    border: 3px solid hsl(0, 8%, 93%);;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    background-color:#4685b9;
+    border:2px solid rgba(137, 161, 231, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(238, 236, 236, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .login{
+    width: 100%;
+    padding: 20px;
+ }
+ .login h2{
+     font-size: 1.4em;
+     color: #fff;
+     text-align: center;
+
+ }
+ .box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+    font-family: 'Times New Roman';
+}
+.box input:focus~label,
+.box input:valid~label{
+    top:-3px;
+}
+ .box input{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:#162938;
+    font-weight: 500;
+    padding: 0 30px 0 5px;
+    
+ }
+ .box label{
+    position: absolute;
+    top: 50%;
+    left:5px;
+ }
+
+.rember label input{
+    margin-right: 3px;
+    top: 5px;
+}
+.rember a{
+    font-family: 'Times New Roman';
+    color:#162938;
+    text-decoration: none;
+}
+.rember a:hover{
+    text-decoration: underline;
+    color: #f3ede7;
+
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    top:3px;
+    background-color:#ff7200;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #fff;
+    margin: 25px 0 10px;
+}
+.btn:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color:#ff7200;
+}
+.login .Register{
+    font-size: 1.2em;
+    color:#162938;
+    text-align: center;
+    font-weight:500;
+    margin: 25px 0 10px;
+    font-weight: 50px;
+}
+.Register{
+    color:#162938;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+
+.Register a{
+    color:#162938;
+    text-decoration: none;
+}
+.Register a:hover{
+color: #f1eae4;
+}

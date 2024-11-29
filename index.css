@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.Header{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    display: flex;
+    
+}
+.navbar{
+   width: 100%;
+    height:75px;
+    margin:auto;
+    background-color: #141313;
+}
+.icon{
+    width: 530px;
+    float:left;
+    height: 75px;
+    
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 50px;
+    float: left;
+    padding-top: 17px;
+}
+.menu{
+  
+    float: left;
+    height:70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration:none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 1.0s;
+    color: rgb(236, 244, 244);
+}
+ul li a:hover{
+    color:#ff7200;
+}
+.btnLogin-popup{
+    top: 10px;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 14px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.btnLogin-popup:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color:#ff7200;
+}
+
+
+.content{
+    margin-left: 2000px;
+    width:1000px;
+    height: 50px;
+    margin:50px;
+    color:#100f0f;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height:30px;
+}
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 45px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+  
+}
+.content p{
+    color: white;
+}
+.content span{
+    color:#ff7200;
+
+}
+.search{
+    width: 30px;
+    float: left;
+    padding-left: 20px;
+    
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 380px;
+    height: 40px;
+
+    border: 3px solid #ebe4df;
+    margin-top: 16px;
+    color:#fff;
+    border-right:none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+
+    

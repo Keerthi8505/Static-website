@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    margin:  80px auto;
+    width: 80%;
+ }
+ .tittle{
+    text-align: center;
+    font-size: 22px; 
+    padding-left:400px;
+
+ }
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
